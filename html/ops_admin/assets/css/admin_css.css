@@ -16,6 +16,7 @@ body{
     font-family: sans-serif;
     font-size: 13px;
     line-height: 19px;
+    background: #ebecf2 none repeat scroll 0 0;
 }
 
 .navbar-inverse {
@@ -40,7 +41,7 @@ body{
     font-size: 16px;
     font-weight: 100;
     margin: 0 15px 0 0;
-    position: relative;
+    position: relative; 
 }
 
 
@@ -67,6 +68,7 @@ body{
     border-radius: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    border-top: #fecd0b 5px solid;
 }
 
 .dropdown-menu li {
@@ -86,11 +88,84 @@ body{
 }
 
 .aside {
-    background: #fff none repeat scroll 0 0;  
-    position: absolute; 
-    width: 210px; 
+    background: #fff none repeat scroll 0 0;   
+    width: 305px;
+    min-height: 100%;
+    position: absolute;
 }
 
+.userProfile { 
+    border-bottom: 1px solid #f0f2f0;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+.userProfile img {
+    display: inline;
+}
+
+.left_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.left_menu > li {
+    border-bottom: 1px solid #e6e7ed;
+    display: block;
+    list-style-type: none;
+}
+.left_menu > li:hover {
+    background-color: #f8f8f8;
+}
+
+.left_menu li a { 
+    color: #363f45;
+    display: block;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+    padding: 15px 0 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.left_menu li a:hover{
+    color: #0275d8; 
+}
+
+.left_menu li a i {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-right: 15px;
+}
+
+ul.left_menu li ul {
+    display: none;
+    list-style: outside none none;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    text-transform: capitalize;
+}
+ul.left_menu li.active > a{
+    color: #0275d8; 
+}
+
+ul.left_menu li.active ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.pageContent.extended {
+    margin: 0 0 0 320px;
+    background-color: pink;
+}
 
 
 @media screen and (max-width:767px){
