@@ -40,8 +40,8 @@ body{
 .navbar-inverse .logo i {
     font-size: 16px;
     font-weight: 100;
-    margin: 0 15px 0 0;
-    position: relative; 
+    position: relative;
+    min-width: 20px;
 }
 
 
@@ -67,15 +67,14 @@ body{
     min-width: 290px;
     border-radius: 0px;
     padding-top: 0px;
-    padding-bottom: 0px;
-    border-top: #fecd0b 5px solid;
+    padding-bottom: 0px; 
 }
 
 .dropdown-menu li {
     border-top: 1px solid #e5e5e5;
 }
 .dropdown-menu li:first-child {
-    border-top: 0px;
+    border-top: #fecd0b 5px solid;
 }
 .dropdown-menu li a{
     padding: 12px 15px;
@@ -115,8 +114,12 @@ body{
     list-style-type: none;
 }
 .left_menu > li:hover {
-    background-color: #f8f8f8;
+    background-color: #fcfcfc;
 }
+.left_menu > li.active{
+    background-color: #fcfcfc;
+}
+
 
 .left_menu li a { 
     color: #363f45;
@@ -168,6 +171,20 @@ ul.left_menu li.active ul {
 }
 
 
+.pageContent {
+    background-color: pink; 
+}
+
+.pageContent h1 {
+    background-color: #f8f8f8;
+    border-image: none; 
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0;
+    padding: 15px;
+}
 @media screen and (max-width:767px){
     .navbar-nav > li > a { padding: 15px 15px; } 
 } 
