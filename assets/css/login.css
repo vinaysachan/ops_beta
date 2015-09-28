@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+body:before {
+    background: none repeat scroll 0 0 #0275d8;
+    content: "";
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+body:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 1px;
+}
+body{
+    color: #363f45;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #edecec;   
+    margin: 0;
+    text-align: center;
+}
+.login_box{
+    animation-duration: 200ms;
+    animation-fill-mode: both;
+    animation-name: fadeInRight;
+    z-index: 10;
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    display: inline-block;
+    margin-top: -60px;
+    padding: 35px 55px;
+    position: relative;
+    vertical-align: middle;
+    width: 500px;
+    margin-bottom: 20px !important;
+    text-align:left;
+}
+.alert {
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.form-signin-heading{
+    margin: 15px 0px 30px 0px;
+}
+.form-control {
+    border-radius: 0px;
+}
+.btn,.btn:hover {
+    background-color: #0275d8;
+    border-color: #0275d8;
+    border-radius: 0;
+    color: #fff;
+    padding: 8px 0;
+}

@@ -1,0 +1,215 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Sep, 2015, 1:03:56 PM
+    Author     : vinay
+*/
+.bred {
+    border: solid 1px red;
+}
+
+body{
+    color: #363f45;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    background: #ebecf2 none repeat scroll 0 0;
+}
+
+.navbar-inverse {
+    background-color: #0275d8; 
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);  
+    position: relative;
+    margin-bottom:0px;
+}
+
+.navbar-inverse .logo {
+    font-size: 20px; 
+    padding-top: 20px;
+}
+.navbar-inverse .logo a {
+    color: #fff;
+    outline: 0 none;
+    text-decoration: none;
+}
+.navbar-inverse .logo i {
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    min-width: 20px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color:#fff;
+}
+.navbar-inverse .navbar-nav > li.dropdown > a:after{
+    content: '\f0d7';
+    font-family: FontAwesome;
+    font-size: small;
+    padding-left: 15px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.navbar-nav > li > a {
+    padding: 20px 15px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #1386e9;
+    color: #fff;
+}
+.dropdown-menu{ 
+    min-width: 290px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+}
+
+.dropdown-menu li {
+    border-top: 1px solid #e5e5e5;
+}
+.dropdown-menu li:first-child {
+    border-top: #fecd0b 5px solid;
+}
+.dropdown-menu li a{
+    padding: 12px 15px;
+    font-size: 13px;
+    line-height: 19px;
+}
+.dropdown-menu li a i{
+    float: right;
+    padding-left: 5px;
+}
+
+.aside {
+    background: #fff none repeat scroll 0 0;   
+    width: 305px;
+    min-height: 100%;
+    position: absolute;
+}
+
+.userProfile { 
+    border-bottom: 1px solid #f0f2f0;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+.userProfile img {
+    display: inline;
+}
+
+.left_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.left_menu > li {
+    border-bottom: 1px solid #e6e7ed;
+    display: block;
+    list-style-type: none;
+}
+.left_menu > li:hover {
+    background-color: #fcfcfc;
+}
+.left_menu > li.active{
+    background-color: #fcfcfc;
+}
+
+
+.left_menu li a { 
+    color: #363f45;
+    display: block;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+    padding: 15px 0 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.left_menu li a:hover{
+    color: #0275d8; 
+}
+
+.left_menu li a i {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-right: 15px;
+}
+
+ul.left_menu li ul {
+    display: none;
+    list-style: outside none none;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    text-transform: capitalize;
+}
+ul.left_menu li.active > a{
+    color: #0275d8; 
+}
+
+ul.left_menu li.active ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.pageContent.extended {
+    margin: 0 0 0 320px;
+    /*background-color: pink;*/
+}
+
+
+.pageContent {
+    /*background-color: pink;*/ 
+}
+
+.pageContent h1 {
+    /*background-color: #f8f8f8;*/
+    border-image: none; 
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0;
+    padding: 15px; 
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.15);
+}
+
+.content {
+    padding: 0px 15px;
+    background-color: #fff;
+     
+     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.18);
+}
+.content h2 {
+    border-bottom: 1px solid #f0f0f0;
+    color: #0000cc; 
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar-nav > li > a { padding: 15px 15px; } 
+} 

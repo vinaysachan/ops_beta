@@ -262,3 +262,6 @@ define('VIEWPATH', $view_folder);
  * And away we go...
  */
 require_once BASEPATH . 'core/CodeIgniter.php';
+
+
+error_reporting(0);

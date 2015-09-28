@@ -83,3 +83,19 @@ define('EXIT_USER_INPUT', 7); // invalid user input
 define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+
+
+
+/*Site Main Constant*/
+
+define('SITE_NAME', 'Online PHP Study');
+define('FLAG_Y', 'Y');
+define('FLAG_N', 'N');
+define('ROLE_ADMIN', 'ADMIN');
+define('ROLE_BLOG', 'BLOGUSER');
+define('ROLE_JOB', 'JOBUSER');
+
+
+define('STATUS_SUCCESS', 'success') ;
+define('STATUS_ERROR', 'error') ;
